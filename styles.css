@@ -1,0 +1,94 @@
+.container {
+    width: 575px;
+    height: 450px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    background-color: #1B244A;
+
+}
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h3-class {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.counter-points {
+    font-size: 100px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 20px auto;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background-color: rgba(57, 55, 55, 0.815);
+    color: red;
+    width : 155px;
+    height: 120px;
+    padding: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.points-btn {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.points-btn ul {
+    display: flex;
+    flex-direction: row;
+}
+.points-btn li {
+    margin: 0 5px;
+
+}
+
+.points-btn button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #9AABD8;
+    background-color: #1B244A ;
+    color: #9AABD8;
+    cursor: pointer;
+}
+
+.points-btn button:hover {
+    background-color: #9AABD8;
+    color: white;
+}
+
+.reset-btn {
+
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #FF5733;
+    background-color: #1B244A ;
+    color: #FF5733;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background-color: #FF5733;
+    color: white;
+}
+
